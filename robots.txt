@@ -1,0 +1,40 @@
+# 本站所有角色與圖文版權歸作者所有，禁止用於 AI 訓練或生成。
+# All characters and artwork on this site are copyrighted. Use for AI training or generation is prohibited.
+
+# ---- AI 訓練／資料蒐集爬蟲：全部禁止 ----
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
+User-agent: Google-Extended
+User-agent: GoogleOther
+User-agent: Applebot-Extended
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: anthropic-ai
+User-agent: CCBot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Bytespider
+User-agent: Meta-ExternalAgent
+User-agent: Meta-ExternalFetcher
+User-agent: FacebookBot
+User-agent: Amazonbot
+User-agent: cohere-ai
+User-agent: cohere-training-data-crawler
+User-agent: Diffbot
+User-agent: ImagesiftBot
+User-agent: img2dataset
+User-agent: Omgilibot
+User-agent: Omgili
+User-agent: Timpibot
+User-agent: YouBot
+User-agent: AI2Bot
+User-agent: Ai2Bot-Dolma
+User-agent: PetalBot
+User-agent: Scrapy
+Disallow: /
+
+# ---- 一般搜尋引擎：允許網頁，但不收錄圖片 ----
+User-agent: *
+Disallow: /img/
+Allow: /
